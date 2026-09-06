@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 790137b253a3e9d4ba3e1d5834445d0b, type: 3}
+  m_Name: Monster Fang
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: Monster Fang
+  itemIcon: {fileID: 1900874589, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  itemId: d3c0d357fe8a98f48aefa032d3f539d1
+  dropChance: 20

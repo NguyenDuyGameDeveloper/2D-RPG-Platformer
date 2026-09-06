@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76321084601cacd4797eae8e6568abcf, type: 3}
+  m_Name: Healing Potion (L)
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Healing Potion (L)
+  itemIcon: {fileID: -105679335, guid: 98c54b55062e73942b29d4ece009a5fb, type: 3}
+  itemId: 6712907e42c8bdc4abe38f3a415a6e13
+  dropChance: 0
+  equipmentType: 3
+  itemCooldown: 15
+  itemEffects:
+  - {fileID: 11400000, guid: bbb661ae181d2b244be4577186a8ef9c, type: 2}
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critDamage: 0
+  health: 0
+  armor: 0
+  magicResistance: 0
+  evasion: 0
+  fireDamage: 0
+  iceDamage: 0
+  lightingDamage: 0
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: ecdea54fef6dd50409d4c75b549f7e3b, type: 2}
+    stackSize: 1
+  - data: {fileID: 11400000, guid: f1795f84555967849ad9cdff9f6f2a9d, type: 2}
+    stackSize: 1
+  - data: {fileID: 11400000, guid: 4600e878eb82b4740ba0fecfe18f63eb, type: 2}
+    stackSize: 3
