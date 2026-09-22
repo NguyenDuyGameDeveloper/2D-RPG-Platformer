@@ -79,17 +79,13 @@ public class Inventory : MonoBehaviour, ISaveManager
             foreach (InventoryItem item in loadedItems)
             {
                 for (int i = 0; i < item.stackSize; i++)
-                {
                     AddItemToInventory(item.data);
-                }
             }
 
             foreach (InventoryItem material in loadedMaterial)
             {
                 for (int i = 0; i < material.stackSize; i++)
-                {
                     AddItemToInventory(material.data);
-                }
             }
 
             foreach (ItemData_Equipment equipment in loadedEquipment)
@@ -154,40 +150,28 @@ public class Inventory : MonoBehaviour, ISaveManager
         }
 
         for (int i = 0; i < inventoryItemSlot.Length; i++) //Update UI Inventory
-        {
             inventoryItemSlot[i].CleanUpSlot();
-        }
 
         for (int i = 0; i < materialItemSlot.Length; i++) // Update UI Material
-        {
             materialItemSlot[i].CleanUpSlot();
-        }
 
         for (int i = 0; i < inventory.Count; i++)
-        {
             inventoryItemSlot[i].UpdateSlot(inventory[i]);
-        }
 
         for (int i = 0; i < material.Count; i++)
-        {
             materialItemSlot[i].UpdateSlot(material[i]);
-        }
 
         UpdateStatsUI();
     }
     public void UpdateStatsUI()
     {
         for (int i = 0; i < statSlots.Length; i++) //Update UI Character Stat
-        {
             statSlots[i].UpdateStatValueUI();
-        }
     }
     private void AddToMaterialInventory(ItemDataSO _item)
     {
         if (materialDictionary.TryGetValue(_item, out InventoryItem value))
-        {
             value.AddStack();
-        }
         else
         {
             InventoryItem newItem = new InventoryItem(_item);
@@ -198,9 +182,7 @@ public class Inventory : MonoBehaviour, ISaveManager
     private void AddToEquipmentInventory(ItemDataSO _item)
     {
         if (inventoryDictionary.TryGetValue(_item, out InventoryItem value))
-        {
             value.AddStack();
-        }
         else
         {
             InventoryItem newItem = new InventoryItem(_item);
@@ -268,9 +250,7 @@ public class Inventory : MonoBehaviour, ISaveManager
         foreach (var requiredMaterial in _requiredMaterials) // If all materials are available, remove it from Material Inventory
         {
             for (int i = 0; i < requiredMaterial.stackSize; i++)
-            {
                 RemoveItem(requiredMaterial.data);
-            }
         }
         AddItemToInventory(_itemToCraft);
         Debug.Log("Craft successful: " +  _itemToCraft.name);
