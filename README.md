@@ -1,23 +1,31 @@
-# 2D-RPG-Platform
+# 2D-Platform-RPG
 
-A personal Unity project focused on learning and implementing advanced gameplay systems and game architecture commonly used in 2D RPG games.
+A 2D platform RPG prototype developed with Unity and C#,
+focused on combat, character progression, skills.
+
+## 🎮 Play
+
+[Play 2D Platform RPG on itch.io](YOUR_ITCH_LINK_HERE)
 
 ## Features
 
-* Character movement and combat system
-* Enemy and boss AI with unique behaviors
-* Procedurally structured dungeon environments
-* Skill progression and skill tree system
-* Equipment and item system
-* Inventory system for equipment, consumables, and legendary items
-* RPG attribute and stat system
-* Checkpoint-based save and load system
-* Dynamic camera control and camera shake effects
-* Terrain-based particle and visual effects
-* Quest and objective system
-* NPC shop and trading system
-* Dialogue system integrated with quests
-* Stage-based farming and difficulty progression
+- 2D platformer movement and combat
+- Enemy and boss combat
+- Active and passive skill systems
+- Equipment and inventory systems
+- Player progression and checkpoints
+- Camera effects and combat feedback
+- RPG attribute and stat system
+- Basic Local Save/Load
+
+## Technical Highlights
+
+- Character movement and combat systems
+- Skill system
+- ScriptableObject-based game data
+- Tilemap-based level design
+- Save and checkpoint system
+- Terrain particle effects
 
 ## Technologies
 
@@ -29,25 +37,7 @@ A personal Unity project focused on learning and implementing advanced gameplay 
 ## Purpose
 
 This project was created to further practice game architecture, gameplay programming, system design, and Unity development workflows while building a more complete 2D RPG framework.
-
-## Current Progress
-
-* [x] Player movement and combat
-* [x] Enemy and boss AI
-* [x] Dungeon environment
-* [x] Skill Tree System
-* [x] Inventory System
-* [x] Equipment and item system
-* [x] RPG Attribute System
-* [x] Save & Load System
-* [x] Camera control and camera shake
-* [x] Terrain-based particle effects
-* [ ] Quest System
-* [ ] Shop System
-* [ ] Dialogue System
-* [ ] Stage-based progression system
-* [ ] Code refactoring and optimization
-* [ ] Co-op Multiplayer with Playfab
+The project was developed as part of my preparation for applying for a Unity Developer Internship.
 
 ## Screenshots
 
@@ -80,3 +70,10 @@ This project was created to further practice game architecture, gameplay program
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b86fbe32-5f50-4583-bc14-c2bbbc1991bf" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7529c0a4-0de1-4836-80ab-6017932fed73" />
+
+## Project Information
+
+Role: Unity Developer
+Engine: Unity 2022.3.62f3
+Language: C#
+Platform: Windows / WebGL
