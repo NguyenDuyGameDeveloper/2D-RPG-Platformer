@@ -5,7 +5,7 @@ focused on combat, character progression, skills.
 
 ## 🎮 Play
 
-[Play 2D Platform RPG on itch.io](YOUR_ITCH_LINK_HERE)
+[Play 2D Platformer RPG on itch.io] (https://nguyenduyvn-gamedeveloper.itch.io/2d-rpg-platformer)
 
 ## Features
 
