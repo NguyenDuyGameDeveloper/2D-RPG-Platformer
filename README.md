@@ -73,7 +73,7 @@ The project was developed as part of my preparation for applying for a Unity Dev
 
 ## Project Information
 
-Role: Unity Developer
-Engine: Unity 2022.3.62f3
-Language: C#
-Platform: Windows / WebGL
+Role: Unity Developer  
+Engine: Unity 2022.3.62f3  
+Language: C#  
+Platform: Windows / WebGL  
